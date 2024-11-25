@@ -45,12 +45,6 @@ export type ResumeItem = {
   date: string;
 };
 
-export type SkillItem = {
-  name: string;
-  icon: string;
-  description: string;
-}
-
 export type AboutPageContent = {
   seo: SEOInfo;
   subtitle: string;
@@ -65,14 +59,6 @@ export type AboutPageContent = {
       alt: string;
     };
   };
-  skills: {
-    description: string;
-    technologies: any[];
-  }
-  experience: {
-    description: string;
-    jobs: any[];
-  }
   work: {
     description: string;
     items: ResumeItem[];

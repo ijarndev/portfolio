@@ -28,7 +28,7 @@ const { title, description, image, year, url } = Astro.props;
       <span class="opacity-60">· {year}</span>
     </div>
     <div class="opacity-60">
-       {description}
+      <Markdown of={description} />
     </div>
   </div>
 </a>

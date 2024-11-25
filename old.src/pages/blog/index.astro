@@ -22,7 +22,6 @@ for (const post of posts) {
     <p class="opacity-60 mb-14">{blogPageContent.subtitle}</p>
 
     <div class="grid grid-cols-1 gap-10 sm:gap-6 mb-10">
-      { posts.length === 0 && <div>😅 Parece que aún no he publicado nada.</div> }
       {
         posts.map((post) => (
           <a

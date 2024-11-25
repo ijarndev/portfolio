@@ -9,22 +9,22 @@ import type {
 } from "./types/config";
 
 export const identity: Identity = {
-  name: "Tim Witzdam",
+  name: "Randy J.",
   logo: "/logo.webp",
-  email: "tim@witzdam.com",
+  email: "ijarndev@gmail.com",
 };
 
 export const navBarLinks: NavBarLink[] = [
   {
-    title: "Home",
+    title: "Inicio",
     url: "/",
   },
   {
-    title: "About",
+    title: "Sobre mi",
     url: "/about",
   },
   {
-    title: "Projects",
+    title: "Proyectos",
     url: "/projects",
   },
   {
@@ -36,13 +36,13 @@ export const navBarLinks: NavBarLink[] = [
 export const socialLinks: SocialLink[] = [
   {
     title: "GitHub",
-    url: "https://github.com/TimWitzdam",
+    url: "https://github.com/ijarndev",
     icon: "mdi:github",
     external: true,
   },
   {
-    title: "Mail",
-    url: "mailto:tim@witzdam.com",
+    title: "Correo electrónico",
+    url: "mailto:ijarndev@gmail.com",
     icon: "mdi:email",
   },
 ];
@@ -50,22 +50,22 @@ export const socialLinks: SocialLink[] = [
 // Home (/)
 export const homePageContent: HomePageContent = {
   seo: {
-    title: "Tim Witzdam",
+    title: "Inicio | Randy Jorge Aguilera",
     description:
-      "Full time student from Germany who loves building cool things using code.",
+      "Desarrollador de software, estudiante de ingeniería y entusiasta de la tecnología.",
     image: identity.logo,
   },
-  role: "Student & Software Developer",
+  role: "Desarrollador de Software",
   description:
-    "I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.",
+    "¡Hola! Soy Randy, desarrollador de software, estudiante de ingeniería y entusiasta de la tecnologías de la información.",
   socialLinks: socialLinks,
   links: [
     {
-      title: "My Projects",
+      title: "Mis proyectos",
       url: "/projects",
     },
     {
-      title: "About Me",
+      title: "Sobre mi",
       url: "/about",
     },
   ],
@@ -74,18 +74,18 @@ export const homePageContent: HomePageContent = {
 // About (/about)
 export const aboutPageContent: AboutPageContent = {
   seo: {
-    title: "About | Tim Witzdam",
+    title: "Sobre mi | Randy Jorge Aguilera",
     description:
-      "Full time student from Germany who loves building cool things using code.",
+      "Desarrollador de software, estudiante de ingeniería y entusiasta de la tecnología.",
     image: identity.logo,
   },
-  subtitle: "Some information about myself",
+  subtitle: "😀 Algo de información personal",
   about: {
     description: `
-I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.
-<br/><br/>
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque placeat est architecto tempora voluptatem sit suscipit aspernatur? <br/><br/>
-Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium consectetur nemo vero officia itaque.`, // Markdown is supported
+Soy un desarrollador de software autodidacta y activo estudiante de Ingeniería Informática.
+<br/>
+Me apasiona escribir y mantener soluciones de código a todos los niveles y entregar resultados versátiles.  <br/><br/>
+`, // Markdown is supported
     image_l: {
       url: "/demo-1.jpg",
       alt: "Left Picture",
@@ -95,26 +95,42 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
       alt: "Right Picture",
     },
   },
+  skills: {
+    description: 'Estas son las principales tecnologías con las que desempeño mi labor.',
+    technologies: [
+      { name: 'HTML', icon: '/techs/html.svg' },
+      { name: 'CSS', icon: '/techs/css.svg' },
+      { name: 'Tailwind', icon: '/techs/tailwind.svg' },
+      { name: 'JavaScript', icon: '/techs/js.svg' },
+      { name: 'Node', icon: '/techs/node.svg' },
+      { name: 'Astro', icon: '/techs/astro.svg' },
+      { name: 'React', icon: '/techs/react.svg' },
+      { name: 'PHP', icon: '/techs/php.svg' },
+      { name: 'cPanel', icon: '/techs/cpanel.svg' },
+      { name: 'WordPress', icon: '/techs/wp.svg' },
+      { name: 'Bash', icon: '/techs/bash.svg' },
+      { name: 'Firebase', icon: '/techs/firebase.svg' },
+      { name: 'Git', icon: '/techs/git.svg' },
+      { name: 'GitHub', icon: '/techs/github.svg' },
+      { name: 'MySQL', icon: '/techs/mysql.svg' },
+      { name: 'SQL', icon: '/techs/sql.svg' },
+    ]
+  },
+  experience: {
+    description: 'Una parte de mi experiencia la he adquirido trabajando con equipos de profesionales como estos.',
+    jobs: []
+  },
   work: {
-    description: `I've worked with a variety of technologies and tools to build cool things. Here are some of the projects I've worked on.`, // Markdown is supported
+    description: `Contáctame si necesitas una solución de calidad, estaré encantado de colaborar.`, // Markdown is supported
     items: [
       {
-        title: "Software Developer",
+        title: "Desarrollador Full-Stack",
         company: {
-          name: "Freelance",
+          name: "Laindes Software",
           image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          url: "https://laindes.com/",
         },
-        date: "2021 - Present",
-      },
-      {
-        title: "Software Developer",
-        company: {
-          name: "Freelance",
-          image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
-        },
-        date: "2019 - 2021",
+        date: "2023 - 2024",
       },
     ],
   },
@@ -127,42 +143,28 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
 // Projects (/projects)
 export const projectsPageContent: ProjectPageContent = {
   seo: {
-    title: "Projects | Tim Witzdam",
-    description: "Check out what I've been working on.",
+    title: "Proyectos | Randy Jorge Aguilera",
+    description: "Algunos de los proyectos en los que he estado trabajando.",
     image: identity.logo,
   },
-  subtitle: "Check out what I've been working on.",
+  subtitle: "Algunos de los proyectos en los que he estado trabajando..",
   projects: [
     {
-      title: "Project 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
+      title: "Laindes Software",
+      description: "Landing page empresarial.",
+      image: "/projects/laindes-landing.jpg",
       year: "2024",
-      url: "https://github.com/TimWitzdam",
-    },
-    {
-      title: "Project 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
-      year: "2024",
-      url: "https://github.com/TimWitzdam",
-    },
-    {
-      title: "Project 1",
-      description: "Project 1 Description",
-      image: "/demo-2.jpg",
-      year: "2024",
-      url: "https://github.com/TimWitzdam",
-    },
+      url: "https://laindes.com/",
+    }
   ],
 };
 
 // Blog (/blog)
 export const blogPageContent: BlogPageContent = {
   seo: {
-    title: "Blog | Tim Witzdam",
-    description: "Thoughts, stories and ideas.",
+    title: "Blog | Randy Jorge Aguilera",
+    description: "Pensamientos, historias e ideas.",
     image: identity.logo,
   },
-  subtitle: "Thoughts, stories and ideas.",
+  subtitle: "Pensamiento, historias e ideas.",
 };
