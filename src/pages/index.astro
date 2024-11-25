@@ -5,6 +5,8 @@ import { homePageContent, identity } from "../config";
 import SocialLink from "../components/SocialLink.astro";
 import Link from "../components/Link.astro";
 import { getCollection } from "astro:content";
+import { Icon } from "astro-icon/components";
+import ContactSection from "../components/ContactSection.astro";
 
 const posts = await getCollection("posts");
 posts.sort((a, b) => {
@@ -19,7 +21,8 @@ posts.splice(2)
   <section class="mt-10 max-w-2xl mx-auto px-6">
     <h1 class="font-bold text-3xl mb-1">{identity.name}</h1>
     <p class="opacity-60 mb-10">{homePageContent.role}</p>
-    <div class="flex flex-col min-[520px]:flex-row gap-6 mb-8">
+    <div class="flex flex-col min-[520px]:flex-row gap-6 mb-8 relative">
+      <span class="absolute w-[16px] h-[16px] bottom-0 left-[75px] border-2 border-white bg-green-500 rounded-full"></span>
       <Image
         src={identity.logo}
         alt={identity.name}
@@ -38,6 +41,15 @@ posts.splice(2)
             />
           ))
         }
+
+        <a
+          class="flex items-center gap-3 opacity-60 group-hover:opacity-30 hover:!opacity-60 transition-opacity"
+        >
+        <Icon name='mdi:user' width={25} height={25} />
+        <div>
+          <p class="">Disponible para Proyectos</p>
+        </div>
+        </a>
       </div>
     </div>
     <p class="max-w-md mb-8">
@@ -51,6 +63,7 @@ posts.splice(2)
       }
     </div>
   </section>
+  <ContactSection />
   <section class="mt-20 max-w-2xl mx-auto px-6">
     <h2 class="mb-8">Últimos Artículos</h2>
     <div class="grid grid-cols-1 gap-10 sm:gap-6 mb-10">

@@ -44,7 +44,7 @@ export const socialLinks: SocialLink[] = [
     title: "Correo electrónico",
     url: "mailto:ijarndev@gmail.com",
     icon: "mdi:email",
-  },
+  }
 ];
 
 // Home (/)
