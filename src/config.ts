@@ -83,8 +83,7 @@ export const aboutPageContent: AboutPageContent = {
   about: {
     description: `
 Soy un desarrollador de software autodidacta y activo estudiante de Ingeniería Informática.
-<br/>
-Me apasiona escribir y mantener soluciones de código a todos los niveles y entregar resultados versátiles.  <br/><br/>
+Me apasiona escribir y mantener soluciones de código a todos los niveles y entregar resultados versátiles.
 `, // Markdown is supported
     image_l: {
       url: "/demo-1.jpg",
