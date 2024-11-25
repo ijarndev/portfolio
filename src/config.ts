@@ -10,7 +10,7 @@ import type {
 
 export const identity: Identity = {
   name: "Randy J.",
-  logo: "/logo.webp",
+  logo: "https://unavatar.io/ijarndev",
   email: "ijarndev@gmail.com",
 };
 
