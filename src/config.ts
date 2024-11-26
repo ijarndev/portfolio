@@ -150,10 +150,17 @@ export const projectsPageContent: ProjectPageContent = {
   projects: [
     {
       title: "Laindes Software",
-      description: "Landing page empresarial.",
-      image: "/projects/laindes-landing.jpg",
+      description: "Sitio web empresarial.",
+      image: "/projects/laindes_fullpage.webp",
       year: "2024",
       url: "https://laindes.com/",
+    },
+    {
+      title: "American Truck Rebuild LLC",
+      description: "Sitio web empresarial.",
+      image: "/projects/atr_fullpage.webp",
+      year: "2024",
+      url: "https://atrebuild.com/",
     }
   ],
 };
