@@ -119,13 +119,22 @@ const { seo } = Astro.props;
             </div>
           </div>
         </nav>
-        <div>
+        <div class="flex">
           <a
             href=`mailto:${identity.email}`
             class="block p-2 opacity-60 hover:opacity-100 transition-opacity"
             aria-label="Email"
           >
             <Icon name="mdi:email" width={20} height={20} />
+          </a>
+          
+          <a
+            title="Ver mi currículum"
+            href=`https://docs.google.com/document/d/1RJ9K6YMAUnQVhU-vvmy3FPJAwPRQl0VZMCSNSm4KIDs/edit?tab=t.0`
+            class="block p-2 opacity-60 hover:opacity-100 transition-opacity"
+            aria-label="Email"
+          >
+            <Icon name="mdi:document" width={20} height={20} />
           </a>
         </div>
       </div>
