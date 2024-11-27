@@ -35,13 +35,13 @@ export const navBarLinks: NavBarLink[] = [
 
 export const socialLinks: SocialLink[] = [
   {
-    title: "github.com/ijarndev",
+    title: "GitHub",
     url: "https://github.com/ijarndev",
     icon: "mdi:github",
     external: true,
   },
   {
-    title: "ijarndev@gmail.com",
+    title: "Gmail",
     url: "mailto:ijarndev@gmail.com",
     icon: "mdi:email",
   }
