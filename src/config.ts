@@ -156,18 +156,18 @@ export const projectsPageContent: ProjectPageContent = {
       url: "https://ijarndev.github.io/vecthor",
     },
     {
+      title: "Piccato Bot",
+      description: "Bot de Telegram que te envía fotogatos. 😺",
+      image: "/projects/piccato.png",
+      year: "2024",
+      url: "https://github.com/ijarndev/piccato-bot"
+    },
+    {
       title: "Laindes Software",
       description: "Sitio web empresarial.",
       image: "/projects/laindes_fullpage.webp",
       year: "2024",
       url: "https://laindes.com/",
-    },
-    {
-      title: "American Truck Rebuild LLC",
-      description: "Sitio web empresarial.",
-      image: "/projects/atr_fullpage.webp",
-      year: "2024",
-      url: "https://atrebuild.com/",
     }
   ],
 };
