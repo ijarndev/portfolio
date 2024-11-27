@@ -149,6 +149,13 @@ export const projectsPageContent: ProjectPageContent = {
   subtitle: "Algunos de los proyectos en los que he estado trabajando..",
   projects: [
     {
+      title: "Vecthor",
+      description: "Renderiza vectores en el plano utilizando JavaScript, HTML5 Canvas API y POO.",
+      image: "/projects/vecthor.png",
+      year: "2024",
+      url: "https://ijarndev.github.io/vecthor",
+    },
+    {
       title: "Laindes Software",
       description: "Sitio web empresarial.",
       image: "/projects/laindes_fullpage.webp",
