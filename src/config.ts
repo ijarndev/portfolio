@@ -150,17 +150,19 @@ export const projectsPageContent: ProjectPageContent = {
   projects: [
     {
       title: "Vecthor",
-      description: "Renderiza vectores en el plano utilizando JavaScript, HTML5 Canvas API y POO.",
+      description: "Renderiza vectores en el plano.",
       image: "/projects/vecthor.png",
       year: "2024",
       url: "https://ijarndev.github.io/vecthor",
+      technologies: ['JavaScript', 'Canvas API', 'POO']
     },
     {
       title: "Piccato Bot",
       description: "Bot de Telegram que te envía fotogatos. 😺",
       image: "/projects/piccato.png",
       year: "2024",
-      url: "https://github.com/ijarndev/piccato-bot"
+      url: "https://github.com/ijarndev/piccato-bot",
+      technologies: ['Node.js']
     },
     {
       title: "Laindes Software",
@@ -168,6 +170,7 @@ export const projectsPageContent: ProjectPageContent = {
       image: "/projects/laindes_fullpage.webp",
       year: "2024",
       url: "https://laindes.com/",
+      technologies: ['Astro', 'Tailwind CSS']
     }
   ],
 };

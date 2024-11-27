@@ -89,6 +89,7 @@ export type Project = {
   image: string;
   year: string;
   url: string;
+  technologies: string[];
 };
 
 export type ProjectPageContent = {

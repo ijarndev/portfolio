@@ -5,7 +5,7 @@ import { Markdown } from "@astropub/md";
 
 type Props = Project;
 
-const { title, description, image, year, url } = Astro.props;
+const { title, description, image, year, url, technologies } = Astro.props;
 ---
 
 <a
@@ -29,6 +29,13 @@ const { title, description, image, year, url } = Astro.props;
     </div>
     <div class="opacity-60">
        {description}
+    </div>
+    <div class="flex flex-wrap gap-x-2 mt-4">
+      {
+        technologies.map(tech => {
+          return <p class="bg-gray-700 rounded-md py-1 px-2 text-xs">{tech}</p>
+        })
+      }
     </div>
   </div>
 </a>
