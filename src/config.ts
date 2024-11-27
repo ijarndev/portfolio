@@ -35,13 +35,13 @@ export const navBarLinks: NavBarLink[] = [
 
 export const socialLinks: SocialLink[] = [
   {
-    title: "GitHub",
+    title: "github.com/ijarndev",
     url: "https://github.com/ijarndev",
     icon: "mdi:github",
     external: true,
   },
   {
-    title: "Correo electrónico",
+    title: "ijarndev@gmail.com",
     url: "mailto:ijarndev@gmail.com",
     icon: "mdi:email",
   }
@@ -126,7 +126,7 @@ Me apasiona escribir y mantener soluciones de código a todos los niveles y entr
         title: "Desarrollador Full-Stack",
         company: {
           name: "Laindes Software",
-          image: "/logo.webp",
+          image: "/jobs/tesseract.png",
           url: "https://laindes.com/",
         },
         date: "2023 - 2024",
