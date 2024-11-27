@@ -43,7 +43,7 @@ export const socialLinks: SocialLink[] = [
   {
     title: "Gmail",
     url: "mailto:ijarndev@gmail.com",
-    icon: "mdi:email",
+  icon: "mdi:email",
   }
 ];
 
