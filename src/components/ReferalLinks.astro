@@ -1,0 +1,37 @@
+---
+import { Icon } from "astro-icon/components";
+import SocialLinkBox from "../../old.src/components/SocialLinkBox.astro";
+---
+
+<section class="rounded-md p-3 bg-gradient-to-br from-sky-500 via-violet-500 to-red-800">
+  <div class="bg-black rounded-md p-3">
+    <h3 class="text-xl font-bold">¡Oferta especial!</h3>
+    <p class="text-gray-300">Si buscas un proveedor de servicios en la nube eficiente al mejor precio no te puedes perder estas rebajas de <a class="text-sky-500" href="https://www.vps-mart.com/?aff_id=7b8905bb59774bb796c2eea9245fefdc">DatabaseMart</a>.</p>
+    
+    <div class="flex mt-4 gap-2 flex-wrap *:flex-1 *:min-w-[200px]">
+      <SocialLinkBox
+        title="Servidores VPS"
+        url="https://www.vps-mart.com/?aff_id=7b8905bb59774bb796c2eea9245fefdc"
+        icon='mdi:server'
+        description="Configura tu VPS con Linux o el SO de tu preferencia en solo un par de clicks."
+        external
+      />
+  
+      <SocialLinkBox
+        title="Servidores Dedicados"
+        url="https://www.bare-server.com/?aff_id=7b8905bb59774bb796c2eea9245fefdc"
+        icon='mdi:thunder'
+        description="Ten el control absoluto de tu máquina remota."
+        external
+      />
+  
+      <SocialLinkBox
+        title="Servidores GPU"
+        url="https://www.gpu-mart.com/?aff_id=7b8905bb59774bb796c2eea9245fefdc"
+        icon='mdi:brain'
+        description="Usa el poder del procesamiento en la nube para entrenar modelos de IA y mucho más."
+        external
+      />
+    </div>
+  </div>
+</section>

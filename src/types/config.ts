@@ -11,6 +11,14 @@ export type SocialLink = {
   external?: boolean;
 };
 
+export type AdLink = {
+  title: string;
+  url: string;
+  icon: string;
+  external?: boolean;
+  description?: boolean
+}
+
 export type Identity = {
   name: string;
   logo: string;
